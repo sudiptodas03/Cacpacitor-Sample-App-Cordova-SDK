@@ -1,10 +1,11 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
+
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'sample-capacitor',
+  appId: 'com.SampleCapacitor.Cordova',
+  appName: 'sample Capacitor Cordova App',
   webDir: 'www',
-  bundledWebRuntime: false
+  bundledWebRuntime: true
 };
 
 export default config;
